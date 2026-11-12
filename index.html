@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northstar Studio</title>
+    <meta
+      name="description"
+      content="A simple, modern landing page for a creative studio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">N</span>
+          <span>Northstar</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-button" href="#contact">Book a call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative growth studio</p>
+            <h1>Build a brand people remember.</h1>
+            <p class="lead">
+              We help startups and established businesses turn ideas into polished,
+              memorable digital experiences that actually convert.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-button" href="#contact">Get started</a>
+              <a class="secondary-button" href="#services">See services</a>
+            </div>
+
+            <ul class="hero-metrics" aria-label="Business metrics">
+              <li><strong>120+</strong><span>projects shipped</span></li>
+              <li><strong>4.9/5</strong><span>average rating</span></li>
+              <li><strong>3x</strong><span>faster launches</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Design mockup showcase">
+            <div class="mockup-window">
+              <div class="mockup-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="chart-card">
+                  <div class="chart-header">
+                    <span>Growth</span>
+                    <span class="pill">+32%</span>
+                  </div>
+                  <div class="bars" aria-hidden="true">
+                    <span style="height: 35%"></span>
+                    <span style="height: 52%"></span>
+                    <span style="height: 49%"></span>
+                    <span style="height: 68%"></span>
+                    <span style="height: 94%"></span>
+                    <span style="height: 100%"></span>
+                  </div>
+                </div>
+                <div class="mini-panel">
+                  <p>Campaign health</p>
+                  <strong>Excellent</strong>
+                  <div class="progress"><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container intro">
+          <p class="section-tag">Why Northstar</p>
+          <h2>Strategy, design, and execution under one roof.</h2>
+          <p>
+            We combine thoughtful branding, UX design, and high-impact development
+            to help companies stand out and scale with confidence.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">What we do</p>
+            <h2>Simple services with measurable impact.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="feature-card">
+              <div class="icon">01</div>
+              <h3>Brand Strategy</h3>
+              <p>
+                Messaging frameworks and positioning that turn your value into clear,
+                compelling stories.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">02</div>
+              <h3>UX Design</h3>
+              <p>
+                User-first interfaces that feel polished, intuitive, and built to keep
+                attention where it matters.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">03</div>
+              <h3>Web Development</h3>
+              <p>
+                Responsive, high-performing sites that look sharp and work flawlessly
+                across devices.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-tag">Recent wins</p>
+            <h2>Trusted by teams that want to grow with clarity.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image image-one"></div>
+              <div class="project-copy">
+                <span>Fintech</span>
+                <h3>Launch campaign for a new platform</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image image-two"></div>
+              <div class="project-copy">
+                <span>Healthcare</span>
+                <h3>Patient journey redesign</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image image-three"></div>
+              <div class="project-copy">
+                <span>SaaS</span>
+                <h3>Conversion-focused landing pages</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <p class="section-tag">Let’s build something great</p>
+          <h2>Ready to create your next big move?</h2>
+        </div>
+        <a class="primary-button" href="mailto:hello@northstarstudio.com">hello@northstarstudio.com</a>
+      </div>
+      <div class="container footer-bar">
+        <span>© <span id="year"></span> Northstar Studio</span>
+        <span>Designed for clarity.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
