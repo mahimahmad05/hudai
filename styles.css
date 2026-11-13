@@ -473,21 +473,4 @@ h2 {
   }
 }
 
-@media (max-width: 620px) {
-  .hero {
-    padding-top: 3.5rem;
-  }
 
-  .hero-metrics {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .footer-content,
-  .footer-bar {
-    display: grid;
-    gap: 1rem;
-    text-align: center;
-  }
-}
