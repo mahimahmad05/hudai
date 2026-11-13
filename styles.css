@@ -452,6 +452,42 @@ h2 {
   font-size: 0.9rem;
 }
 
+@media (max-width: 900px) {
+  .hero-grid,
+  .card-grid,
+  .project-grid,
+  .footer-content {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
 
+  .nav {
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  }
 
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 
+@media (max-width: 620px) {
+  .hero {
+    padding-top: 3.5rem;
+  }
+
+  .hero-metrics {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer-content,
+  .footer-bar {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+  }
+}
